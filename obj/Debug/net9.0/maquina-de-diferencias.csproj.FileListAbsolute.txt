@@ -1,0 +1,14 @@
+/home/sva/Programs/C#/maquina-de-diferencias/bin/Debug/net9.0/maquina-de-diferencias
+/home/sva/Programs/C#/maquina-de-diferencias/bin/Debug/net9.0/maquina-de-diferencias.deps.json
+/home/sva/Programs/C#/maquina-de-diferencias/bin/Debug/net9.0/maquina-de-diferencias.runtimeconfig.json
+/home/sva/Programs/C#/maquina-de-diferencias/bin/Debug/net9.0/maquina-de-diferencias.dll
+/home/sva/Programs/C#/maquina-de-diferencias/bin/Debug/net9.0/maquina-de-diferencias.pdb
+/home/sva/Programs/C#/maquina-de-diferencias/obj/Debug/net9.0/maquina-de-diferencias.GeneratedMSBuildEditorConfig.editorconfig
+/home/sva/Programs/C#/maquina-de-diferencias/obj/Debug/net9.0/maquina-de-diferencias.AssemblyInfoInputs.cache
+/home/sva/Programs/C#/maquina-de-diferencias/obj/Debug/net9.0/maquina-de-diferencias.AssemblyInfo.cs
+/home/sva/Programs/C#/maquina-de-diferencias/obj/Debug/net9.0/maquina-de-diferencias.csproj.CoreCompileInputs.cache
+/home/sva/Programs/C#/maquina-de-diferencias/obj/Debug/net9.0/maquina-de-diferencias.dll
+/home/sva/Programs/C#/maquina-de-diferencias/obj/Debug/net9.0/refint/maquina-de-diferencias.dll
+/home/sva/Programs/C#/maquina-de-diferencias/obj/Debug/net9.0/maquina-de-diferencias.pdb
+/home/sva/Programs/C#/maquina-de-diferencias/obj/Debug/net9.0/maquina-de-diferencias.genruntimeconfig.cache
+/home/sva/Programs/C#/maquina-de-diferencias/obj/Debug/net9.0/ref/maquina-de-diferencias.dll
