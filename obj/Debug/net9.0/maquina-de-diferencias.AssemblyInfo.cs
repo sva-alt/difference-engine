@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("maquina-de-diferencias")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e29bfa1803958825161f4c216ec12e89c26b5325")]
 [assembly: System.Reflection.AssemblyProductAttribute("maquina-de-diferencias")]
 [assembly: System.Reflection.AssemblyTitleAttribute("maquina-de-diferencias")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

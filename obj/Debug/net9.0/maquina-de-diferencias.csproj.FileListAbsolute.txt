@@ -12,3 +12,4 @@
 /home/sva/Programs/C#/maquina-de-diferencias/obj/Debug/net9.0/maquina-de-diferencias.pdb
 /home/sva/Programs/C#/maquina-de-diferencias/obj/Debug/net9.0/maquina-de-diferencias.genruntimeconfig.cache
 /home/sva/Programs/C#/maquina-de-diferencias/obj/Debug/net9.0/ref/maquina-de-diferencias.dll
+/home/sva/Programs/C#/maquina-de-diferencias/obj/Debug/net9.0/maquina-de-diferencias.sourcelink.json
