@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zxeCYymSATc=",
+  "dgSpecHash": "alBSUs9EIdI=",
   "success": true,
-  "projectFilePath": "/home/sva/Programs/C#/maquina-de-diferencias/maquina-de-diferencias.csproj",
+  "projectFilePath": "/home/santiago/Programs/difference-engine/maquina-de-diferencias.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

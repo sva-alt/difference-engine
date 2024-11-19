@@ -4,8 +4,8 @@ using System.Data;
 Console.WriteLine("Hello, World!");
 
 
-string poly = "-5x^4 + x - 1";
-double h = 0.1;
+string poly = "2x^2 - 3x + 2";
+double h = 1;
 var machine = new DifferenceMachine(poly, h);
 
 class DifferenceMachine
@@ -13,21 +13,22 @@ class DifferenceMachine
     private double[] polynomial;
     private double h;
     private Dictionary<int,double[]> table;
+    private double max_px;
+    private double min_px;
+    private double last_col_const;
     private int order;
 
     public DifferenceMachine(string polynomial, double h)
     {
         
         this.h = h;
-        this.polynomial = readPolynomial(polynomial);
-        this.table = createTable();
+        this.polynomial = ReadPolynomial(polynomial);
+        this.table = CreateTable();
 
 
     }
 
-
-
-    public double[] readPolynomial(string polynomial)
+    public double[] ReadPolynomial(string polynomial)
     {
         polynomial = polynomial.Trim();
         for (int i = 1; i < polynomial.Length; i++)
@@ -76,15 +77,16 @@ class DifferenceMachine
         return d_poly_array;
     }
 
-    public Dictionary<int,double[]> createTable(){
+    public Dictionary<int,double[]> CreateTable(){
         //TODO: data population
         Dictionary<int, double[]> table = new Dictionary<int, double[]>(); 
-        int i;
         double num = 0;
-        for (i = 0; i < this.order+3; i++) 
+        int complete_columns = 3;
+
+        for (int i = 0; i < this.order+complete_columns-1; i++) 
         {
             double x = 0;
-            double[] temp_array = new double[this.order+1];
+            double[] temp_array = new double[this.order];
             for (int j = 0; j < this.order; j++)
             {
                 if(j == 0)
@@ -98,10 +100,27 @@ class DifferenceMachine
             }
             temp_array[0] = x;
             table[i] = temp_array;
-            num += num + this.h;
-            
+            num += this.h;
         }
+        int l = 1;
+        for (int i = 1; i < this.order; i++)
+        {
+            for (int j = 0; j < this.order+complete_columns-l-1; j++)
+            {
+                table[j][i] = table[j+1][i-1] - table[j][i-1];
+            }
+            l++;
+        }
+        this.min_px = table[0][0];
+        this.max_px = table[this.order + complete_columns - 1][0];
+        this.last_col_const = this.table[0][this.order];
+
         return table;
+    }
+
+    public void CountUp()
+    {
+        return;
     }
 
 }
