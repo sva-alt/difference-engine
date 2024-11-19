@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/santiago/Programs/difference-engine/maquina-de-diferencias.csproj": {}
+    "/home/sva/Programs/C#/maquina-de-diferencias/maquina-de-diferencias.csproj": {}
   },
   "projects": {
-    "/home/santiago/Programs/difference-engine/maquina-de-diferencias.csproj": {
+    "/home/sva/Programs/C#/maquina-de-diferencias/maquina-de-diferencias.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/santiago/Programs/difference-engine/maquina-de-diferencias.csproj",
+        "projectUniqueName": "/home/sva/Programs/C#/maquina-de-diferencias/maquina-de-diferencias.csproj",
         "projectName": "maquina-de-diferencias",
-        "projectPath": "/home/santiago/Programs/difference-engine/maquina-de-diferencias.csproj",
-        "packagesPath": "/home/santiago/.nuget/packages/",
-        "outputPath": "/home/santiago/Programs/difference-engine/obj/",
+        "projectPath": "/home/sva/Programs/C#/maquina-de-diferencias/maquina-de-diferencias.csproj",
+        "packagesPath": "/home/sva/.nuget/packages/",
+        "outputPath": "/home/sva/Programs/C#/maquina-de-diferencias/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/santiago/.nuget/NuGet/NuGet.Config"
+          "/home/sva/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
